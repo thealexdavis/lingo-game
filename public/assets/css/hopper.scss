@@ -1,0 +1,154 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	font-family: 'Roboto', sans-serif;
+}
+.disable-dbl-tap-zoom {
+  touch-action: manipulation;
+}
+header{
+	background-color: white;
+	border-bottom: 3px solid blue;
+	height: 65px;
+	background-image: url(../../img/smaller_logo.png);
+	background-size: 290px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	p#playername{
+		display: none;
+		text-align: center;
+	    color: blue;
+	    font-weight: bold;
+	    font-size: 36px;
+	    line-height: 65px;
+	    margin: 0;
+	}
+	&.loggedin{
+		background-image: none;
+		p#playername{
+			display: block;
+		}
+	}
+}
+#theball{
+	display: none;
+    background-image: url(../../img/blank_blue.png);
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 125px;
+    z-index: 2;
+	color: white;
+    font-weight: bold;
+    text-shadow: 0px 4px 4px rgba(150, 150, 150, 1);
+    margin-top: 36px;
+    margin-left: auto;
+    margin-right: auto;
+}
+button{
+	width: 250px;
+	border: 5px solid blue;
+	background-color: white;
+	text-decoration: none;
+	color: blue;
+	font-weight: bold;
+	margin: 25px auto 0;
+	font-size: 32px;
+	display: block;
+	&:focus,&:hover{
+		background-color: blue;
+		color: white;
+		outline: none;
+	}
+}
+#form{
+	form{
+		margin-top: 25px;
+		input[type="text"]{
+			display: block;
+			border:  3px solid blue;
+			color: blue;
+			outline: 0;
+			box-sizing: border-box;
+			width: 93%;
+			margin: 0 auto 25px;
+			padding: 10px 10px;
+			font-size: 18px;
+			
+		}
+		input[type="submit"]{
+			width: 93%;
+			border: 3px solid blue;
+			background-color: white;
+			text-decoration: none;
+			color: blue;
+			font-weight: bold;
+			margin: 25px auto 0;
+			font-size: 18px;
+			padding: 10px 0;
+			display: block;
+			&:focus,&:hover{
+				background-color: blue;
+				color: white;
+				outline: none;
+			}
+		}
+	}
+}
+.standbylogo{
+	max-width: 93%;
+	width: 93%;
+	margin: 25px auto;
+	display: block;
+}
+.balldisplay{
+	width: 300px;
+	height: 300px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	display: block;
+    margin: 25px auto;
+    position: relative;
+	span{
+		position: absolute;
+	    left: 0;
+	    right: 0;
+	    margin: auto;
+	    text-align: center;
+	    z-index: 2;
+	    color: white;
+	    font-weight: bold;
+	    font-size: 170px;
+	    text-shadow: 0px 4px 4px #969696;
+	    line-height: 300px;
+	}
+	&.blue{
+		background-image: url(../../img/blank_blue.png);
+	}
+	&.red{
+		background-image: url(../../img/blank_red.png);
+	}
+	&.yellow{
+		background-image: url(../../img/blank_yellow.png);
+	}
+	&.gold{
+		background-image: url(../../img/blank_gold.png);
+	}
+	&.purple{
+		background-image: url(../../img/blank_purple.png);
+	}
+	&.white{
+		background-image: url(../../img/blank_white.png);
+		span{
+			color: black;
+		}
+	}
+	&.green{
+		background-image: url(../../img/blank_green.png);
+	}
+}

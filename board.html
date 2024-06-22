@@ -1,0 +1,578 @@
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+<body>
+	<div id="board_holder">
+<div id="word_board">
+	<div id="line1" class="line">
+		<div class="scene" id="cube1">
+			<div class="cube" id="cubeanim1">
+				<div class="cube__face cube__face--front" id="cube1front"><span id="letter1front"></span></div>
+			    <div class="cube__face cube__face--back" id="cube1back"><span id="letter1back"></span></div>
+			    <div class="cube__face_short cube__face--right"></div>
+			    <div class="cube__face_short cube__face--left"></div>
+			    <div class="cube__face_tops cube__face--top"></div>
+			    <div class="cube__face_tops cube__face--bottom"></div>
+			</div>
+		</div>
+		<div class="scene" id="cube2">
+			<div class="cube"  id="cubeanim2">
+				<div class="cube__face cube__face--front" id="cube2front"><span id="letter2front"></span></div>
+			    <div class="cube__face cube__face--back" id="cube2back"><span id="letter2back"></span></div>
+			    <div class="cube__face_short cube__face--right"></div>
+			    <div class="cube__face_short cube__face--left"></div>
+			    <div class="cube__face_tops cube__face--top"></div>
+			    <div class="cube__face_tops cube__face--bottom"></div>
+			</div>
+		</div>
+		<div class="scene" id="cube3">
+			<div class="cube" id="cubeanim3">
+				<div class="cube__face cube__face--front" id="cube3front"><span id="letter3front"></span></div>
+			    <div class="cube__face cube__face--back" id="cube3back"><span id="letter3back"></span></div>
+			    <div class="cube__face_short cube__face--right"></div>
+			    <div class="cube__face_short cube__face--left"></div>
+			    <div class="cube__face_tops cube__face--top"></div>
+			    <div class="cube__face_tops cube__face--bottom"></div>
+			</div>
+		</div>
+		<div class="scene" id="cube4">
+			<div class="cube" id="cubeanim4">
+				<div class="cube__face cube__face--front" id="cube4front"><span id="letter4front"></span></div>
+			    <div class="cube__face cube__face--back" id="cube4back"><span id="letter4back"></span></div>
+			    <div class="cube__face_short cube__face--right"></div>
+			    <div class="cube__face_short cube__face--left"></div>
+			    <div class="cube__face_tops cube__face--top"></div>
+			    <div class="cube__face_tops cube__face--bottom"></div>
+			</div>
+		</div>
+		<div class="scene" id="cube5">
+			<div class="cube" id="cubeanim5">
+				<div class="cube__face cube__face--front" id="cube5front"><span id="letter5front"></span></div>
+			    <div class="cube__face cube__face--back" id="cube5back"><span id="letter5back"></span></div>
+			    <div class="cube__face_short cube__face--right"></div>
+			    <div class="cube__face_short cube__face--left"></div>
+			    <div class="cube__face_tops cube__face--top"></div>
+			    <div class="cube__face_tops cube__face--bottom"></div>
+			</div>
+		</div>
+	</div>
+	<div id="line2" class="line">
+		<div class="scene" id="cube6">
+			<div class="cube" id="cubeanim6">
+				<div class="cube__face cube__face--front" id="cube6front"><span id="letter6front"></span></div>
+			    <div class="cube__face cube__face--back" id="cube6back"><span id="letter6back"></span></div>
+			    <div class="cube__face_short cube__face--right"></div>
+			    <div class="cube__face_short cube__face--left"></div>
+			    <div class="cube__face_tops cube__face--top"></div>
+			    <div class="cube__face_tops cube__face--bottom"></div>
+			</div>
+		</div>
+		<div class="scene" id="cube7">
+			<div class="cube" id="cubeanim7">
+				<div class="cube__face cube__face--front" id="cube7front"><span id="letter7front"></span></div>
+			    <div class="cube__face cube__face--back" id="cube7back"><span id="letter7back"></span></div>
+			    <div class="cube__face_short cube__face--right"></div>
+			    <div class="cube__face_short cube__face--left"></div>
+			    <div class="cube__face_tops cube__face--top"></div>
+			    <div class="cube__face_tops cube__face--bottom"></div>
+			</div>
+		</div>
+		<div class="scene" id="cube8">
+			<div class="cube" id="cubeanim8">
+				<div class="cube__face cube__face--front" id="cube8front"><span id="letter8front"></span></div>
+			    <div class="cube__face cube__face--back" id="cube8back"><span id="letter8back"></span></div>
+			    <div class="cube__face_short cube__face--right"></div>
+			    <div class="cube__face_short cube__face--left"></div>
+			    <div class="cube__face_tops cube__face--top"></div>
+			    <div class="cube__face_tops cube__face--bottom"></div>
+			</div>
+		</div>
+		<div class="scene" id="cube9">
+			<div class="cube" id="cubeanim9">
+				<div class="cube__face cube__face--front" id="cube9front"><span id="letter9front"></span></div>
+			    <div class="cube__face cube__face--back" id="cube9back"><span id="letter9back"></span></div>
+			    <div class="cube__face_short cube__face--right"></div>
+			    <div class="cube__face_short cube__face--left"></div>
+			    <div class="cube__face_tops cube__face--top"></div>
+			    <div class="cube__face_tops cube__face--bottom"></div>
+			</div>
+		</div>
+		<div class="scene" id="cube10">
+			<div class="cube" id="cubeanim10">
+				<div class="cube__face cube__face--front" id="cube10front"><span id="letter10front"></span></div>
+			    <div class="cube__face cube__face--back" id="cube10back"><span id="letter10back"></span></div>
+			    <div class="cube__face_short cube__face--right"></div>
+			    <div class="cube__face_short cube__face--left"></div>
+			    <div class="cube__face_tops cube__face--top"></div>
+			    <div class="cube__face_tops cube__face--bottom"></div>
+			</div>
+		</div>
+	</div>
+	<div id="line3" class="line">
+		<div class="scene" id="cube11">
+			<div class="cube" id="cubeanim11">
+				<div class="cube__face cube__face--front" id="cube11front"><span id="letter11front"></span></div>
+			    <div class="cube__face cube__face--back" id="cube11back"><span id="letter11back"></span></div>
+			    <div class="cube__face_short cube__face--right"></div>
+			    <div class="cube__face_short cube__face--left"></div>
+			    <div class="cube__face_tops cube__face--top"></div>
+			    <div class="cube__face_tops cube__face--bottom"></div>
+			</div>
+		</div>
+		<div class="scene" id="cube12">
+			<div class="cube" id="cubeanim12">
+				<div class="cube__face cube__face--front" id="cube12front"><span id="letter12front"></span></div>
+			    <div class="cube__face cube__face--back" id="cube12back"><span id="letter12back"></span></div>
+			    <div class="cube__face_short cube__face--right"></div>
+			    <div class="cube__face_short cube__face--left"></div>
+			    <div class="cube__face_tops cube__face--top"></div>
+			    <div class="cube__face_tops cube__face--bottom"></div>
+			</div>
+		</div>
+		<div class="scene" id="cube13">
+			<div class="cube" id="cubeanim13">
+				<div class="cube__face cube__face--front" id="cube13front"><span id="letter13front"></span></div>
+			    <div class="cube__face cube__face--back" id="cube13back"><span id="letter13back"></span></div>
+			    <div class="cube__face_short cube__face--right"></div>
+			    <div class="cube__face_short cube__face--left"></div>
+			    <div class="cube__face_tops cube__face--top"></div>
+			    <div class="cube__face_tops cube__face--bottom"></div>
+			</div>
+		</div>
+		<div class="scene" id="cube14">
+			<div class="cube" id="cubeanim14">
+				<div class="cube__face cube__face--front" id="cube14front"><span id="letter14front"></span></div>
+			    <div class="cube__face cube__face--back" id="cube14back"><span id="letter14back"></span></div>
+			    <div class="cube__face_short cube__face--right"></div>
+			    <div class="cube__face_short cube__face--left"></div>
+			    <div class="cube__face_tops cube__face--top"></div>
+			    <div class="cube__face_tops cube__face--bottom"></div>
+			</div>
+		</div>
+		<div class="scene" id="cube15">
+			<div class="cube" id="cubeanim15">
+				<div class="cube__face cube__face--front" id="cube15front"><span id="letter15front"></span></div>
+			    <div class="cube__face cube__face--back" id="cube15back"><span id="letter15back"></span></div>
+			    <div class="cube__face_short cube__face--right"></div>
+			    <div class="cube__face_short cube__face--left"></div>
+			    <div class="cube__face_tops cube__face--top"></div>
+			    <div class="cube__face_tops cube__face--bottom"></div>
+			</div>
+		</div>
+	</div>
+	<div id="line4" class="line">
+		<div class="scene" id="cube16">
+			<div class="cube" id="cubeanim16">
+				<div class="cube__face cube__face--front" id="cube16front"><span id="letter16front"></span></div>
+			    <div class="cube__face cube__face--back" id="cube16back"><span id="letter16back"></span></div>
+			    <div class="cube__face_short cube__face--right"></div>
+			    <div class="cube__face_short cube__face--left"></div>
+			    <div class="cube__face_tops cube__face--top"></div>
+			    <div class="cube__face_tops cube__face--bottom"></div>
+			</div>
+		</div>
+		<div class="scene" id="cube17">
+			<div class="cube" id="cubeanim17">
+				<div class="cube__face cube__face--front" id="cube17front"><span id="letter17front"></span></div>
+			    <div class="cube__face cube__face--back" id="cube17back"><span id="letter17back"></span></div>
+			    <div class="cube__face_short cube__face--right"></div>
+			    <div class="cube__face_short cube__face--left"></div>
+			    <div class="cube__face_tops cube__face--top"></div>
+			    <div class="cube__face_tops cube__face--bottom"></div>
+			</div>
+		</div>
+		<div class="scene" id="cube18">
+			<div class="cube" id="cubeanim18">
+				<div class="cube__face cube__face--front" id="cube18front"><span id="letter18front"></span></div>
+			    <div class="cube__face cube__face--back" id="cube18back"><span id="letter18back"></span></div>
+			    <div class="cube__face_short cube__face--right"></div>
+			    <div class="cube__face_short cube__face--left"></div>
+			    <div class="cube__face_tops cube__face--top"></div>
+			    <div class="cube__face_tops cube__face--bottom"></div>
+			</div>
+		</div>
+		<div class="scene" id="cube19">
+			<div class="cube" id="cubeanim19">
+				<div class="cube__face cube__face--front" id="cube19front"><span id="letter19front"></span></div>
+			    <div class="cube__face cube__face--back" id="cube19back"><span id="letter19back"></span></div>
+			    <div class="cube__face_short cube__face--right"></div>
+			    <div class="cube__face_short cube__face--left"></div>
+			    <div class="cube__face_tops cube__face--top"></div>
+			    <div class="cube__face_tops cube__face--bottom"></div>
+			</div>
+		</div>
+		<div class="scene" id="cube20">
+			<div class="cube" id="cubeanim20">
+				<div class="cube__face cube__face--front" id="cube20front"><span id="letter20front"></span></div>
+			    <div class="cube__face cube__face--back" id="cube20back"><span id="letter20back"></span></div>
+			    <div class="cube__face_short cube__face--right"></div>
+			    <div class="cube__face_short cube__face--left"></div>
+			    <div class="cube__face_tops cube__face--top"></div>
+			    <div class="cube__face_tops cube__face--bottom"></div>
+			</div>
+		</div>
+	</div>
+	<div id="line5" class="line">
+		<div class="scene" id="cube21">
+			<div class="cube" id="cubeanim21">
+				<div class="cube__face cube__face--front" id="cube21front"><span id="letter21front"></span></div>
+			    <div class="cube__face cube__face--back" id="cube21back"><span id="letter21back"></span></div>
+			    <div class="cube__face_short cube__face--right"></div>
+			    <div class="cube__face_short cube__face--left"></div>
+			    <div class="cube__face_tops cube__face--top"></div>
+			    <div class="cube__face_tops cube__face--bottom"></div>
+			</div>
+		</div>
+		<div class="scene" id="cube22">
+			<div class="cube" id="cubeanim22">
+				<div class="cube__face cube__face--front" id="cube22front"><span id="letter22front"></span></div>
+			    <div class="cube__face cube__face--back" id="cube22back"><span id="letter22back"></span></div>
+			    <div class="cube__face_short cube__face--right"></div>
+			    <div class="cube__face_short cube__face--left"></div>
+			    <div class="cube__face_tops cube__face--top"></div>
+			    <div class="cube__face_tops cube__face--bottom"></div>
+			</div>
+		</div>
+		<div class="scene" id="cube23">
+			<div class="cube" id="cubeanim23">
+				<div class="cube__face cube__face--front" id="cube23front"><span id="letter23front"></span></div>
+			    <div class="cube__face cube__face--back" id="cube23back"><span id="letter23back"></span></div>
+			    <div class="cube__face_short cube__face--right"></div>
+			    <div class="cube__face_short cube__face--left"></div>
+			    <div class="cube__face_tops cube__face--top"></div>
+			    <div class="cube__face_tops cube__face--bottom"></div>
+			</div>
+		</div>
+		<div class="scene" id="cube24">
+			<div class="cube" id="cubeanim24">
+				<div class="cube__face cube__face--front" id="cube24front"><span id="letter24front"></span></div>
+			    <div class="cube__face cube__face--back" id="cube24back"><span id="letter24back"></span></div>
+			    <div class="cube__face_short cube__face--right"></div>
+			    <div class="cube__face_short cube__face--left"></div>
+			    <div class="cube__face_tops cube__face--top"></div>
+			    <div class="cube__face_tops cube__face--bottom"></div>
+			</div>
+		</div>
+		<div class="scene" id="cube25">
+			<div class="cube"  id="cubeanim25">
+				<div class="cube__face cube__face--front" id="cube25front"><span id="letter25front"></span></div>
+			    <div class="cube__face cube__face--back" id="cube25back"><span id="letter25back"></span></div>
+			    <div class="cube__face_short cube__face--right"></div>
+			    <div class="cube__face_short cube__face--left"></div>
+			    <div class="cube__face_tops cube__face--top"></div>
+			    <div class="cube__face_tops cube__face--bottom"></div>
+			</div>
+		</div>
+	</div>
+	<div id="line6" class="line offstage">
+		<div class="scene" id="cube26">
+			<div class="cube" id="cubeanim26">
+				<div class="cube__face cube__face--front" id="cube26front"><span id="letter26front"></span></div>
+			    <div class="cube__face cube__face--back" id="cube26back"><span id="letter26back"></span></div>
+			    <div class="cube__face_short cube__face--right"></div>
+			    <div class="cube__face_short cube__face--left"></div>
+			    <div class="cube__face_tops cube__face--top"></div>
+			    <div class="cube__face_tops cube__face--bottom"></div>
+			</div>
+		</div>
+		<div class="scene" id="cube27">
+			<div class="cube" id="cubeanim27">
+				<div class="cube__face cube__face--front" id="cube27front"><span id="letter27front"></span></div>
+			    <div class="cube__face cube__face--back" id="cube27back"><span id="letter27back"></span></div>
+			    <div class="cube__face_short cube__face--right"></div>
+			    <div class="cube__face_short cube__face--left"></div>
+			    <div class="cube__face_tops cube__face--top"></div>
+			    <div class="cube__face_tops cube__face--bottom"></div>
+			</div>
+		</div>
+		<div class="scene" id="cube28">
+			<div class="cube" id="cubeanim28">
+				<div class="cube__face cube__face--front" id="cube28front"><span id="letter28front"></span></div>
+			    <div class="cube__face cube__face--back" id="cube28back"><span id="letter28back"></span></div>
+			    <div class="cube__face_short cube__face--right"></div>
+			    <div class="cube__face_short cube__face--left"></div>
+			    <div class="cube__face_tops cube__face--top"></div>
+			    <div class="cube__face_tops cube__face--bottom"></div>
+			</div>
+		</div>
+		<div class="scene" id="cube29">
+			<div class="cube" id="cubeanim29">
+				<div class="cube__face cube__face--front" id="cube29front"><span id="letter29front"></span></div>
+			    <div class="cube__face cube__face--back" id="cube29back"><span id="letter29back"></span></div>
+			    <div class="cube__face_short cube__face--right"></div>
+			    <div class="cube__face_short cube__face--left"></div>
+			    <div class="cube__face_tops cube__face--top"></div>
+			    <div class="cube__face_tops cube__face--bottom"></div>
+			</div>
+		</div>
+		<div class="scene" id="cube30">
+			<div class="cube"  id="cubeanim30">
+				<div class="cube__face cube__face--front" id="cube30front"><span id="letter30front"></span></div>
+			    <div class="cube__face cube__face--back" id="cube30back"><span id="letter30back"></span></div>
+			    <div class="cube__face_short cube__face--right"></div>
+			    <div class="cube__face_short cube__face--left"></div>
+			    <div class="cube__face_tops cube__face--top"></div>
+			    <div class="cube__face_tops cube__face--bottom"></div>
+			</div>
+		</div>
+	</div>
+	<div id="line7" class="line offstage">
+		<div class="scene" id="cube31">
+			<div class="cube" id="cubeanim31">
+				<div class="cube__face cube__face--front" id="cube31front"><span id="letter31front"></span></div>
+			    <div class="cube__face cube__face--back" id="cube31back"><span id="letter31back"></span></div>
+			    <div class="cube__face_short cube__face--right"></div>
+			    <div class="cube__face_short cube__face--left"></div>
+			    <div class="cube__face_tops cube__face--top"></div>
+			    <div class="cube__face_tops cube__face--bottom"></div>
+			</div>
+		</div>
+		<div class="scene" id="cube32">
+			<div class="cube" id="cubeanim32">
+				<div class="cube__face cube__face--front" id="cube32front"><span id="letter32front"></span></div>
+			    <div class="cube__face cube__face--back" id="cube32back"><span id="letter32back"></span></div>
+			    <div class="cube__face_short cube__face--right"></div>
+			    <div class="cube__face_short cube__face--left"></div>
+			    <div class="cube__face_tops cube__face--top"></div>
+			    <div class="cube__face_tops cube__face--bottom"></div>
+			</div>
+		</div>
+		<div class="scene" id="cube33">
+			<div class="cube" id="cubeanim33">
+				<div class="cube__face cube__face--front" id="cube33front"><span id="letter33front"></span></div>
+			    <div class="cube__face cube__face--back" id="cube33back"><span id="letter33back"></span></div>
+			    <div class="cube__face_short cube__face--right"></div>
+			    <div class="cube__face_short cube__face--left"></div>
+			    <div class="cube__face_tops cube__face--top"></div>
+			    <div class="cube__face_tops cube__face--bottom"></div>
+			</div>
+		</div>
+		<div class="scene" id="cube34">
+			<div class="cube" id="cubeanim34">
+				<div class="cube__face cube__face--front" id="cube34front"><span id="letter34front"></span></div>
+			    <div class="cube__face cube__face--back" id="cube34back"><span id="letter34back"></span></div>
+			    <div class="cube__face_short cube__face--right"></div>
+			    <div class="cube__face_short cube__face--left"></div>
+			    <div class="cube__face_tops cube__face--top"></div>
+			    <div class="cube__face_tops cube__face--bottom"></div>
+			</div>
+		</div>
+		<div class="scene" id="cube35">
+			<div class="cube"  id="cubeanim35">
+				<div class="cube__face cube__face--front" id="cube35front"><span id="letter35front"></span></div>
+			    <div class="cube__face cube__face--back" id="cube35back"><span id="letter35back"></span></div>
+			    <div class="cube__face_short cube__face--right"></div>
+			    <div class="cube__face_short cube__face--left"></div>
+			    <div class="cube__face_tops cube__face--top"></div>
+			    <div class="cube__face_tops cube__face--bottom"></div>
+			</div>
+		</div>
+	</div>
+	<div id="line8" class="line offstage">
+		<div class="scene" id="cube36">
+			<div class="cube" id="cubeanim36">
+				<div class="cube__face cube__face--front" id="cube36front"><span id="letter36front"></span></div>
+			    <div class="cube__face cube__face--back" id="cube36back"><span id="letter36back"></span></div>
+			    <div class="cube__face_short cube__face--right"></div>
+			    <div class="cube__face_short cube__face--left"></div>
+			    <div class="cube__face_tops cube__face--top"></div>
+			    <div class="cube__face_tops cube__face--bottom"></div>
+			</div>
+		</div>
+		<div class="scene" id="cube37">
+			<div class="cube" id="cubeanim37">
+				<div class="cube__face cube__face--front" id="cube37front"><span id="letter37front"></span></div>
+			    <div class="cube__face cube__face--back" id="cube37back"><span id="letter37back"></span></div>
+			    <div class="cube__face_short cube__face--right"></div>
+			    <div class="cube__face_short cube__face--left"></div>
+			    <div class="cube__face_tops cube__face--top"></div>
+			    <div class="cube__face_tops cube__face--bottom"></div>
+			</div>
+		</div>
+		<div class="scene" id="cube38">
+			<div class="cube" id="cubeanim38">
+				<div class="cube__face cube__face--front" id="cube38front"><span id="letter38front"></span></div>
+			    <div class="cube__face cube__face--back" id="cube38back"><span id="letter38back"></span></div>
+			    <div class="cube__face_short cube__face--right"></div>
+			    <div class="cube__face_short cube__face--left"></div>
+			    <div class="cube__face_tops cube__face--top"></div>
+			    <div class="cube__face_tops cube__face--bottom"></div>
+			</div>
+		</div>
+		<div class="scene" id="cube39">
+			<div class="cube" id="cubeanim39">
+				<div class="cube__face cube__face--front" id="cube39front"><span id="letter39front"></span></div>
+			    <div class="cube__face cube__face--back" id="cube39back"><span id="letter39back"></span></div>
+			    <div class="cube__face_short cube__face--right"></div>
+			    <div class="cube__face_short cube__face--left"></div>
+			    <div class="cube__face_tops cube__face--top"></div>
+			    <div class="cube__face_tops cube__face--bottom"></div>
+			</div>
+		</div>
+		<div class="scene" id="cube40">
+			<div class="cube"  id="cubeanim40">
+				<div class="cube__face cube__face--front" id="cube40front"><span id="letter40front"></span></div>
+			    <div class="cube__face cube__face--back" id="cube40back"><span id="letter40back"></span></div>
+			    <div class="cube__face_short cube__face--right"></div>
+			    <div class="cube__face_short cube__face--left"></div>
+			    <div class="cube__face_tops cube__face--top"></div>
+			    <div class="cube__face_tops cube__face--bottom"></div>
+			</div>
+		</div>
+	</div>
+	<div id="line9" class="line offstage">
+		<div class="scene" id="cube41">
+			<div class="cube" id="cubeanim41">
+				<div class="cube__face cube__face--front" id="cube41front"><span id="letter41front"></span></div>
+			    <div class="cube__face cube__face--back" id="cube41back"><span id="letter41back"></span></div>
+			    <div class="cube__face_short cube__face--right"></div>
+			    <div class="cube__face_short cube__face--left"></div>
+			    <div class="cube__face_tops cube__face--top"></div>
+			    <div class="cube__face_tops cube__face--bottom"></div>
+			</div>
+		</div>
+		<div class="scene" id="cube42">
+			<div class="cube" id="cubeanim42">
+				<div class="cube__face cube__face--front" id="cube42front"><span id="letter42front"></span></div>
+			    <div class="cube__face cube__face--back" id="cube42back"><span id="letter42back"></span></div>
+			    <div class="cube__face_short cube__face--right"></div>
+			    <div class="cube__face_short cube__face--left"></div>
+			    <div class="cube__face_tops cube__face--top"></div>
+			    <div class="cube__face_tops cube__face--bottom"></div>
+			</div>
+		</div>
+		<div class="scene" id="cube43">
+			<div class="cube" id="cubeanim43">
+				<div class="cube__face cube__face--front" id="cube43front"><span id="letter43front"></span></div>
+			    <div class="cube__face cube__face--back" id="cube43back"><span id="letter43back"></span></div>
+			    <div class="cube__face_short cube__face--right"></div>
+			    <div class="cube__face_short cube__face--left"></div>
+			    <div class="cube__face_tops cube__face--top"></div>
+			    <div class="cube__face_tops cube__face--bottom"></div>
+			</div>
+		</div>
+		<div class="scene" id="cube44">
+			<div class="cube" id="cubeanim44">
+				<div class="cube__face cube__face--front" id="cube44front"><span id="letter44front"></span></div>
+			    <div class="cube__face cube__face--back" id="cube44back"><span id="letter44back"></span></div>
+			    <div class="cube__face_short cube__face--right"></div>
+			    <div class="cube__face_short cube__face--left"></div>
+			    <div class="cube__face_tops cube__face--top"></div>
+			    <div class="cube__face_tops cube__face--bottom"></div>
+			</div>
+		</div>
+		<div class="scene" id="cube45">
+			<div class="cube"  id="cubeanim45">
+				<div class="cube__face cube__face--front" id="cube45front"><span id="letter45front"></span></div>
+			    <div class="cube__face cube__face--back" id="cube45back"><span id="letter45back"></span></div>
+			    <div class="cube__face_short cube__face--right"></div>
+			    <div class="cube__face_short cube__face--left"></div>
+			    <div class="cube__face_tops cube__face--top"></div>
+			    <div class="cube__face_tops cube__face--bottom"></div>
+			</div>
+		</div>
+	</div>
+	<div id="line10" class="line offstage">
+		<div class="scene" id="cube46">
+			<div class="cube" id="cubeanim46">
+				<div class="cube__face cube__face--front" id="cube46front"><span id="letter46front"></span></div>
+			    <div class="cube__face cube__face--back" id="cube46back"><span id="letter46back"></span></div>
+			    <div class="cube__face_short cube__face--right"></div>
+			    <div class="cube__face_short cube__face--left"></div>
+			    <div class="cube__face_tops cube__face--top"></div>
+			    <div class="cube__face_tops cube__face--bottom"></div>
+			</div>
+		</div>
+		<div class="scene" id="cube47">
+			<div class="cube" id="cubeanim47">
+				<div class="cube__face cube__face--front" id="cube47front"><span id="letter47front"></span></div>
+			    <div class="cube__face cube__face--back" id="cube47back"><span id="letter47back"></span></div>
+			    <div class="cube__face_short cube__face--right"></div>
+			    <div class="cube__face_short cube__face--left"></div>
+			    <div class="cube__face_tops cube__face--top"></div>
+			    <div class="cube__face_tops cube__face--bottom"></div>
+			</div>
+		</div>
+		<div class="scene" id="cube48">
+			<div class="cube" id="cubeanim48">
+				<div class="cube__face cube__face--front" id="cube48front"><span id="letter48front"></span></div>
+			    <div class="cube__face cube__face--back" id="cube48back"><span id="letter48back"></span></div>
+			    <div class="cube__face_short cube__face--right"></div>
+			    <div class="cube__face_short cube__face--left"></div>
+			    <div class="cube__face_tops cube__face--top"></div>
+			    <div class="cube__face_tops cube__face--bottom"></div>
+			</div>
+		</div>
+		<div class="scene" id="cube49">
+			<div class="cube" id="cubeanim49">
+				<div class="cube__face cube__face--front" id="cube49front"><span id="letter49front"></span></div>
+			    <div class="cube__face cube__face--back" id="cube49back"><span id="letter49back"></span></div>
+			    <div class="cube__face_short cube__face--right"></div>
+			    <div class="cube__face_short cube__face--left"></div>
+			    <div class="cube__face_tops cube__face--top"></div>
+			    <div class="cube__face_tops cube__face--bottom"></div>
+			</div>
+		</div>
+		<div class="scene" id="cube50">
+			<div class="cube"  id="cubeanim50">
+				<div class="cube__face cube__face--front" id="cube50front"><span id="letter50front"></span></div>
+			    <div class="cube__face cube__face--back" id="cube50back"><span id="letter50back"></span></div>
+			    <div class="cube__face_short cube__face--right"></div>
+			    <div class="cube__face_short cube__face--left"></div>
+			    <div class="cube__face_tops cube__face--top"></div>
+			    <div class="cube__face_tops cube__face--bottom"></div>
+			</div>
+		</div>
+	</div>
+</div>
+	</div>
+	<script src="/socket.io/socket.io.js"></script>
+<script>
+  var socket = io();
+</script>
+<audio id="beep1" preload>
+  <source src="sfx/beep1.m4a" type="audio/mpeg">
+</audio>
+<audio id="beep2" preload>
+  <source src="sfx/beep2.m4a" type="audio/mpeg">
+</audio>
+<audio id="beep3" preload>
+  <source src="sfx/beep3.m4a" type="audio/mpeg">
+</audio>
+<audio id="beep4" preload>
+  <source src="sfx/beep4.m4a" type="audio/mpeg">
+</audio>
+<audio id="beep5" preload>
+  <source src="sfx/beep5.m4a" type="audio/mpeg">
+</audio>
+<audio id="wrongplace1" preload>
+  <source src="sfx/wrongplace1.m4a" type="audio/mpeg">
+</audio>
+<audio id="wrongplace2" preload>
+  <source src="sfx/wrongplace2.m4a" type="audio/mpeg">
+</audio>
+<audio id="wrongplace3" preload>
+  <source src="sfx/wrongplace3.m4a" type="audio/mpeg">
+</audio>
+<audio id="wrongplace4" preload>
+  <source src="sfx/wrongplace4.m4a" type="audio/mpeg">
+</audio>
+<audio id="wrongplace5" preload>
+  <source src="sfx/wrongplace5.m4a" type="audio/mpeg">
+</audio>
+<audio id="notinword1" preload>
+  <source src="sfx/notinword1.m4a" type="audio/mpeg">
+</audio>
+<audio id="notinword2" preload>
+  <source src="sfx/notinword2.m4a" type="audio/mpeg">
+</audio>
+<audio id="notinword3" preload>
+  <source src="sfx/notinword3.m4a" type="audio/mpeg">
+</audio>
+<audio id="notinword4" preload>
+  <source src="sfx/notinword4.m4a" type="audio/mpeg">
+</audio>
+<audio id="notinword5" preload>
+  <source src="sfx/notinword5.m4a" type="audio/mpeg">
+</audio>
+<script src="assets/js/board.js"></script>
+</body>

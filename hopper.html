@@ -1,0 +1,22 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<body class="disable-dbl-tap-zoom">
+	<link rel="stylesheet" href="assets/css/hopper.css">
+	<header id="header">
+		<p id="playername"></p>
+	</header>
+	<div id="main_container">
+		<div id="form">
+			<form method="" action="" onsubmit="login()">
+				<input type="text" id="username" placeholder="Name" maxlength="20">
+				<input type="text" id="gamecode" placeholder="Passcode" maxlength="6">
+				<input id="login_player" type="submit" value="Submit">
+			</form>
+		</div>
+	</div>
+</body>
+<script src="/socket.io/socket.io.js"></script>
+<script>
+  var socket = io();
+</script>
+<script src="assets/js/player.js"></script>
